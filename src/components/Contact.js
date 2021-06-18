@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <div className="contactOuterContainer">
             <div className="contactContainer">
-            <form name="contact" method="POST" data-netlify="true">
+            <form name="contact" method="POST" data-netlify="true" netlify>
             <div className="formSection">
                <label>Your Name:  </label>  
                <input type="text" name="name" />
