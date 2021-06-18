@@ -10,17 +10,17 @@ const Services = () => {
                 <div className="service">
                     <div><MdLaptop size="50px"/></div>
                     <h3>Web Development</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, nostrum.</p>
+                    <p>Develop websites using modern tools like React that are blazing fast.</p>
                 </div>
                 <div className="service">
                     <div><MdSettings size="50px"/></div>
                     <h3>UI/UX Design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, nostrum.</p>
+                    <p>Dvelop minimal, clean and easy to use modern websites.</p>
                 </div>
                 <div className="service">
                     <div><FaMobile size="50px"/></div>
                     <h3>Mobile App Development</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, nostrum.</p>
+                    <p>Developing simple mobile apps with React Native.</p>
                 </div>
             </div>
         </div>

@@ -130,7 +130,7 @@ body {
   border-radius: 10px;
   background: rgb(245, 170, 32);
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .heroContent .viewProjectsButton:hover,
@@ -151,13 +151,13 @@ body {
 .heroContent h2 {
   font-size: 2.5rem;
   margin-bottom: 0.5em;
-  font-weight: 100;
-  letter-spacing: 0.2ch;
+  font-weight: 300;
+  letter-spacing: 0.1ch;
 }
 
 .heroContent h2 span {
   font-size: 2rem;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .heroContent h2 .nameSpan {
@@ -170,7 +170,8 @@ body {
   font-size: 1.5rem;
   color: rgb(196, 196, 196);
   margin: 1em 0;
-  font-weight: 100;
+  max-width: 70ch;
+  font-weight: 300;
 }
 
 /* .imageContainer {
@@ -338,6 +339,20 @@ body {
   flex: 1;
   padding: 1em 0;
   text-align: left;
+  line-height: 2;
+}
+
+.aboutResources {
+  margin-top: 1em;
+  padding: 1em 0;
+}
+
+.aboutResources ul {
+  list-style: none;
+}
+
+.aboutResources ul li a {
+  color: blue;
 }
 
 .aboutImageContainer {
@@ -422,13 +437,13 @@ body {
 /* Footer Component */
 
 .footerOuterContainer {
-  /* border: 1px solid red; */
   background: url("https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1355&q=80");
   background-size: cover;
+  padding: 1em;
 }
 
 .contactSocialContainer {
-  padding: 1em;
+  padding: 0.5em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -440,6 +455,11 @@ body {
 
 .contactSocialContainer .icon:hover {
   color: rgb(245, 170, 32);
+}
+
+.copyright {
+  text-align: center;
+  color: rgb(196, 196, 196);
 }
 
 /* Services Section */
@@ -492,22 +512,22 @@ body {
 
 .contactOuterContainer {
   width: 100vw;
-  padding: 2em;
   min-height: 100vh;
+  padding: 1em;
 }
 
 .contactContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
   margin: 0 auto;
+  max-width: 1200px;
 }
 
 .contactOuterContainer form {
   flex: 1;
   border-radius: 10px;
-  padding: 2em;
+  padding: 2em 0;
   box-shadow: 1px 3px 3px 3px rgba(0, 0, 0, 0.3);
   background: white;
   text-align: center;
@@ -517,8 +537,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 400px;
+  max-width: 500px;
   margin: 1em auto;
+}
+
+.contactOuterContainer form .formSection label {
+  font-size: 1.2rem;
 }
 
 .contactOuterContainer form button {
@@ -536,20 +560,52 @@ body {
 
 .contactOuterContainer form .formSection input,
 textarea {
-  width: 250px;
   padding: 0.5em 1em;
   border-radius: 10px;
   border: 1px solid black;
+  width: 300px;
 }
 
 .contactImageContainer {
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   text-align: center;
 }
 
+.contactImageContainer a {
+  display: block;
+  margin: 0 10em;
+}
+
 .contactImageContainer img {
-  width: 80%;
+  width: 70%;
+}
+
+@media (max-width: 415px) {
+  .contactOuterContainer {
+    margin-top: 7em;
+    max-width: 415px;
+    padding: 0;
+  }
+  .contactOuterContainer form .formSection {
+    max-width: 300px;
+    flex-direction: column;
+    padding: 0;
+    align-items: flex-start;
+  }
+
+  .contactOuterContainer form {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .contactOuterContainer form .formSection label {
+    font-size: 1rem;
+  }
+
+  .contactImageContainer {
+    display: none;
+  }
 }

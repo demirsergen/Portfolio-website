@@ -31,6 +31,7 @@ const Footer = () => {
             <TiSocialTwitter size="40px" className="icon" />
           </a>
       </div>
+      <p className="copyright">&copy; 2021 Sergen Demir. All rights reserved.</p>
     </div>
   );
 };
