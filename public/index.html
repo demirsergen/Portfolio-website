@@ -13,22 +13,22 @@
   </head>
 
   <body>
-    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+    <form name="contact" netlify-data="true">
             <div className="formSection">
                <label>Your Name:  </label>  
-               <input type="text" name="name" />
+               <input type="hidden" name="name" />
             </div>
             <div className="formSection">
                <label>Your Email:  </label>  
-               <input type="email" name="email" />
+               <input type="hidden" name="email" />
             </div>
             <div className="formSection">
                <label>Subject: </label>  
-               <input type="text" name="subject" />
+               <input type="hidden" name="subject" />
             </div>
             <div className="formSection">
                <label>Message: </label>  
-                <textarea name="message" cols="29" rows="5"></textarea>
+                <textarea name="hidden" cols="29" rows="5"></textarea>
             </div>
             </form>
     <div id="root"></div>
