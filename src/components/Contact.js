@@ -5,8 +5,8 @@ const Contact = () => {
     return (
         <div className="contactOuterContainer">
             <div className="contactContainer">
-            <form name="contact" onSubmit="submit" netlify>
-            <input type="hidden" name="form-name" value="contact"></input>
+            <form name="contact v1" onSubmit="submit" netlify>
+            <input type="hidden" name="form-name" value="contact v1"></input>
             <div className="formSection">
                <label>Your Name:  </label>  
                <input type="text" name="name" />
