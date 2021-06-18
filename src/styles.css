@@ -85,7 +85,7 @@ body {
 
 .heroOuterContainer {
   position: relative;
-  background: url("https://images.unsplash.com/photo-1532289608746-8aaaa40620f8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background: url("../src/static/images/hero_image.jpeg");
   background-size: cover;
   padding: 7em 4em;
   min-height: 91vh;
@@ -97,7 +97,7 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .heroContentContainer {
@@ -481,7 +481,7 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 140px;
+  width: 136px;
   height: 5px;
   background: rgb(245, 170, 32);
 }

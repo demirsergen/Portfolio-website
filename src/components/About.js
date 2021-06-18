@@ -1,3 +1,4 @@
+import profilePic from '../static/images/profile_picture.JPG'
 import { Link } from "react-router-dom";
 const About = () => {
   return (
@@ -26,7 +27,7 @@ const About = () => {
         </div>
       </div>
       <div className="aboutImageContainer">
-        <img src="https://images.unsplash.com/photo-1618284554746-71a7b3e923c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80" />
+        <img src={profilePic} />
       </div>
     </div>
     </div>
