@@ -9,19 +9,19 @@ const Contact = () => {
             <input type="hidden" name="form-name" value="contact"></input>
             <div className="formSection">
                <label>Your Name:  </label>  
-               <input required type="text" name="name" />
+               <input type="text" name="name" required/>
             </div>
             <div className="formSection">
                <label>Your Email:  </label>  
-               <input required type="email" name="email" />
+               <input  type="email" name="email" required/>
             </div>
             <div className="formSection">
                <label>Subject: </label>  
-               <input required type="text" name="subject" />
+               <input type="text" name="subject" required/>
             </div>
             <div className="formSection">
                <label>Message: </label>  
-                <textarea required name="message" cols="20" rows="5"></textarea>
+                <textarea name="message" cols="20" rows="5" required></textarea>
             </div>
                 <button type="submit">Submit</button>
             </form>
