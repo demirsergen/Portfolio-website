@@ -1,5 +1,5 @@
 import '../styles.css';
-import image from '../public/static/images/contact.svg';
+import image from '../static/images/contact.svg';
 
 const Contact = () => {
     return (

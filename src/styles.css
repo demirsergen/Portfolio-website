@@ -525,10 +525,13 @@ body {
   padding: 0.5em 1em;
   text-transform: uppercase;
   border-radius: 10px;
-  border: none;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
   outline: none;
+  border: 1px solid black;
   cursor: pointer;
+}
+
+.contactOuterContainer form button:hover {
+  background: rgb(232, 232, 232);
 }
 
 .contactOuterContainer form .formSection input,
@@ -536,9 +539,7 @@ textarea {
   width: 250px;
   padding: 0.5em 1em;
   border-radius: 10px;
-  border: none;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
-  outline: none;
+  border: 1px solid black;
 }
 
 .contactImageContainer {
