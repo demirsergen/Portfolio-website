@@ -4,6 +4,8 @@ import {
   TiSocialGithub,
   TiSocialTwitter
 } from "react-icons/ti";
+import { FiCodepen} from "react-icons/fi";
+
 
 const Footer = () => {
   return (
@@ -22,6 +24,13 @@ const Footer = () => {
             target="_blank"
           >
             <TiSocialGithub size="40px" className="icon" />
+          </a>
+          <a
+            href="https://codepen.io/demirsergen"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <FiCodepen size="40px" className="icon" />
           </a>
           <a
             href="https://twitter.com/sergenddemir"

@@ -1,6 +1,6 @@
 import { ImHtmlFive, ImCss3 } from "react-icons/im";
 import { SiJavascript, SiReact, SiStyledComponents, SiFigma, SiVisualstudio, SiGatsby} from "react-icons/si";
-import { FaSass, FaNode, FaMobile } from "react-icons/fa";
+import { FaSass, FaNode } from "react-icons/fa";
 
 import "../styles.css";
 

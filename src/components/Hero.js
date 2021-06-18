@@ -14,7 +14,7 @@ const Hero = () => {
             <span>Hello,</span><br/> this is <span className='nameSpan'>Sergen</span>.<br/> Welcome to my portfolio website.
           </h2>
           <p>
-            I am a self-taught web developer and I use modern technologies to
+            I am a community-taught web developer and I use modern technologies to
             create cool things on the web.
           </p>
           <div className="heroButtonsContainer">

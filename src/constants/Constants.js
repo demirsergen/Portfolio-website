@@ -1,5 +1,12 @@
 export const data = [
   {
+    name: "Simple Todo App",
+    tags: ["JS", "CSS"],
+    img: 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGxhbm5pbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
+    visit: "https://codepen.io/demirsergen/pen/XWMmbNW?editors=0010",
+    source: "https://codepen.io/demirsergen/pen/XWMmbNW?editors=0010"
+  },
+  {
     name: "Rock-Paper-Scissors",
     tags: ["React", "CSS"],
     img:
@@ -8,7 +15,7 @@ export const data = [
     source: "https://codesandbox.io/s/rock-paper-scissors-ewo03"
   },
   {
-    name: "Weather API",
+    name: "Weather App",
     tags: ["JS", "CSS"],
     img:
       "https://images.unsplash.com/photo-1499346030926-9a72daac6c63?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",

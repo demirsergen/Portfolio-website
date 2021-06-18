@@ -57,6 +57,7 @@ body {
 
 .navLinks a:hover {
   color: rgb(245, 170, 32);
+  transition: all 0.3s ease-in-out;
 }
 
 @media (max-width: 435px) {
@@ -133,10 +134,15 @@ body {
   font-weight: 600;
 }
 
+.heroContent .viewProjectsButton {
+  background: rgb(196, 196, 196);
+}
+
 .heroContent .viewProjectsButton:hover,
 .connectButton:hover {
   background: rgba(245, 171, 32, 0.791);
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .heroContent .viewProjectsButton a,
@@ -295,6 +301,7 @@ body {
 
 .link:hover {
   background: rgb(231, 231, 231);
+  transition: all 0.3s ease-in-out;
 }
 
 .link:nth-of-type(1) {
@@ -345,6 +352,10 @@ body {
 .aboutResources {
   margin-top: 1em;
   padding: 1em 0;
+}
+
+.aboutResources h3 {
+  text-decoration: underline;
 }
 
 .aboutResources ul {
@@ -443,18 +454,20 @@ body {
 }
 
 .contactSocialContainer {
-  padding: 0.5em;
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 0.5em;
 }
 
 .contactSocialContainer .icon {
   color: white;
+  size: 40px;
 }
 
 .contactSocialContainer .icon:hover {
   color: rgb(245, 170, 32);
+  transition: all 0.3s ease-in-out;
 }
 
 .copyright {
@@ -556,6 +569,7 @@ body {
 
 .contactOuterContainer form button:hover {
   background: rgb(232, 232, 232);
+  transition: all 0.3s ease-in-out;
 }
 
 .contactOuterContainer form .formSection input,
