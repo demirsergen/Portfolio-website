@@ -16,10 +16,6 @@ const Contact = () => {
                <input  type="email" name="email" required/>
             </div>
             <div className="formSection">
-               <label>Subject: </label>  
-               <input type="text" name="subject" required/>
-            </div>
-            <div className="formSection">
                <label>Message: </label>  
                 <textarea name="message" cols="20" rows="5" required></textarea>
             </div>
