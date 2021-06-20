@@ -11,19 +11,19 @@ const Projects = () => {
             <img src={project.img} alt="" />
             <div className="projectsInfo">
               <div>
-                <h3>
+                <h4>
                   Project: <span>{project.name}</span>
-                </h3>
+                </h4>
               </div>
               <div className="s">
-                <h3 className="projectsTags">
+                <h4 className="projectsTags">
                   Tags:
                   {project.tags.map((tag, index) => (
                     <span className="tag" key={index}>
                       {tag}
                     </span>
                   ))}
-                </h3>
+                </h4>
               </div>
               <div>
                 <a

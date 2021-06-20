@@ -4,6 +4,7 @@ import image from '../static/images/contact.svg';
 const Contact = () => {
     return (
         <div className="contactOuterContainer">
+            <h1 className="contactTitle">Contact Form</h1>
             <div className="contactContainer">
             <form name="contact" method="post">
             <input type="hidden" name="form-name" value="contact"></input>
