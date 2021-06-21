@@ -1,6 +1,7 @@
 import Hero from "./Hero";
 import Services from "./Services";
 import Skills from "./Skills";
+import SoftSkills from "./SoftSkills";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Hero />
       <Services />
       <Skills />
+      <SoftSkills />
     </div>
   );
 };

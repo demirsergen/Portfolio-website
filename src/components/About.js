@@ -1,5 +1,6 @@
 import profilePic from '../static/images/profile_picture2.JPG'
 import { Link } from "react-router-dom";
+
 const About = () => {
   return (
     <div className="aboutOuterContainer">
@@ -18,7 +19,7 @@ const About = () => {
         <p></p>
         <Link to="/contact">For any enquiries</Link>
         <div className="aboutResources">
-          <h3>Resources</h3>
+          <h4>Main Resources I've Used</h4>
           <ul>
             <li><a href="https://www.freecodecamp.org/learn" target="_blank" t>FreeCodeCamp</a></li>
             <li><a href="https://www.youtube.com/freecodecamp" target="_blank">Countless Youtube Videos</a></li>
