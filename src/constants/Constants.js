@@ -1,4 +1,4 @@
-import image1 from '../static/images/todoapp.JPG';
+import image1 from '../static/images/todoapp.png';
 import image2 from '../static/images/prs.png';
 import image3 from '../static/images/weatherapp.png';
 import image4 from '../static/images/palindrome.png';

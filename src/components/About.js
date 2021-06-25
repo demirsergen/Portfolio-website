@@ -1,4 +1,4 @@
-import profilePic from '../static/images/profile_picture2.JPG'
+import profilePic from '../static/images/profile_picture2.JPG' 
 import { Link } from "react-router-dom";
 
 const About = () => {
@@ -12,9 +12,9 @@ const About = () => {
           <strong>
             <i>Sergen</i>
           </strong>,
-          and I'm a community-taught web developer. The photo is not mine though, I got that from the internet.</p><br/>
+          and I'm a community-taught web developer. I love learning. Since the pandemic started, I've learned to play the guitar and web development utilising free resources online.</p><br/>
 
-          <p>I got myself<strong> a degree in Psychology</strong> and then I went on and got myself <strong>a Master's degree</strong> so I could work in tech companies.</p>
+          <p>I got myself<strong> a degree in Psychology</strong> and then I went on and moved to the UK to get my <strong> Master's degree</strong> so I could work in tech companies.</p>
         <p>But little did I know, that wasn't going to be enough for me, personally, <strong>I had to learn how to code.</strong></p>
         <p></p>
         <Link to="/contact">For any enquiries</Link>

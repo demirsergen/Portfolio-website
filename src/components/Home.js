@@ -9,7 +9,7 @@ const Home = () => {
       <Hero />
       <Services />
       <Skills />
-      <SoftSkills />
+      {/* <SoftSkills /> */}
     </div>
   );
 };
