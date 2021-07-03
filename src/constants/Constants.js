@@ -1,4 +1,4 @@
-import image1 from '../static/images/todoapp.png';
+import image1 from '../static/images/note-taking-app.png';
 import image2 from '../static/images/prs.png';
 import image3 from '../static/images/weatherapp.png';
 import image4 from '../static/images/palindrome.png';
@@ -6,11 +6,11 @@ import image5 from '../static/images/meme.png';
  
 export const data = [
   {
-    name: "Simple Todo App",
-    tags: ["JS", "CSS"],
+    name: "Note Taking App",
+    tags: ["React", "CSS"],
     img: image1,
-    visit: "https://codepen.io/demirsergen/pen/XWMmbNW?editors=0010",
-    source: "https://codepen.io/demirsergen/pen/XWMmbNW?editors=0010"
+    visit: "https://note-taking-app-2021.netlify.app/",
+    source: "https://github.com/demirsergen/note-taking-app"
   },
   {
     name: "Rock-Paper-Scissors",
