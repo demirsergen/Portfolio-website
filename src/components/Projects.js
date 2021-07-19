@@ -1,7 +1,11 @@
 import { data } from "../constants/Constants";
+import { useEffect } from "react";
 import "../styles.css";
 
 const Projects = () => {
+  useEffect(() => {
+     window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="projectsOuterContainer">
       <h1 className="projectsTitle">Projects</h1>
@@ -32,7 +36,7 @@ const Projects = () => {
                   rel="noreferrer"
                   className="link"
                 >
-                  View Project
+                  View Live
                 </a>
                 <a
                   href={project.source}

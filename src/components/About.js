@@ -1,7 +1,11 @@
 import profilePic from '../static/images/profile_picture2.JPG' 
+import { useEffect } from 'react';
 import { Link } from "react-router-dom";
 
 const About = () => {
+  useEffect(() => {
+     window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="aboutOuterContainer">
     <div className="aboutContainer">
@@ -19,11 +23,12 @@ const About = () => {
         <p></p>
         <Link to="/contact">For any enquiries</Link>
         <div className="aboutResources">
-          <h4>Main Resources I've Used</h4>
+          <h4>Main Resources I've Used:</h4>
           <ul>
             <li><a href="https://www.freecodecamp.org/learn" target="_blank" t>FreeCodeCamp</a></li>
-            <li><a href="https://www.youtube.com/freecodecamp" target="_blank">Countless Youtube Videos</a></li>
+            <li><a href="https://www.youtube.com/freecodecamp" target="_blank">FreeCodeCamp Youtube</a></li>
             <li><a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a></li>
+            <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
           </ul>
         </div>
       </div>

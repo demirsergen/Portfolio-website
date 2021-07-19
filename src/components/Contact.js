@@ -1,7 +1,11 @@
 import '../styles.css';
+import { useEffect } from 'react';
 import image from '../static/images/contact.svg';
 
 const Contact = () => {
+    useEffect(() => {
+     window.scrollTo(0, 0)
+  }, [])
     return (
         <div className="contactOuterContainer">
             <h1 className="contactTitle">Contact Form</h1>

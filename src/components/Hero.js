@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="heroContentContainer">
         <div className="heroContent">
           <h2>
-            <span>Hello,</span><br/> this is <span className='nameSpan'>Sergen</span>.<br/> Welcome to my portfolio website.
+            <span>Hi,</span><br/> this is <span className='nameSpan'>Sergen</span>.<br/> Welcome to my portfolio website.
           </h2>
           <p>
             I am a community-taught web developer and I use modern technologies to
@@ -26,12 +26,6 @@ const Hero = () => {
           </button>
           </div>
         </div>
-        {/* <div className="imageContainer">
-          <img
-            src="https://images.unsplash.com/photo-1552058544-f2b08422138a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=688&q=80"
-            alt=""
-          />
-        </div> */}
       </div>
       <div className="overlay"></div>
     </div>

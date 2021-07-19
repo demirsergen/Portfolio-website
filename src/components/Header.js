@@ -3,8 +3,10 @@ import { GrCompass } from "react-icons/gr";
 import "../styles.css";
 
 const Header = () => {
+
   return (
     <Switch>
+      <header>
       <div className="headerContainer">
         <div className="brand">
           <Link to="/">
@@ -27,6 +29,7 @@ const Header = () => {
           </li>
         </ul>
       </div>
+      </header>
     </Switch>
   );
 };
