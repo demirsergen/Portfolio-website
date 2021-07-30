@@ -16,28 +16,28 @@ const Footer = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <TiSocialLinkedin size="40px" className="icon" />
+            <TiSocialLinkedin  className="icon" />
           </a>
           <a
             href="https://github.com/demirsergen"
             rel="noreferrer"
             target="_blank"
           >
-            <TiSocialGithub size="40px" className="icon" />
+            <TiSocialGithub  className="icon" />
           </a>
           <a
             href="https://codepen.io/demirsergen"
             rel="noreferrer"
             target="_blank"
           >
-            <FiCodepen size="40px" className="icon" />
+            <FiCodepen className="icon" />
           </a>
           <a
             href="https://twitter.com/sergenddemir"
             rel="noreferrer"
             target="_blank"
           >
-            <TiSocialTwitter size="40px" className="icon" />
+            <TiSocialTwitter className="icon" />
           </a>
       </div>
       <p className="copyright">&copy; 2021 Sergen Demir. All rights reserved.</p>

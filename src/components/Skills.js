@@ -1,5 +1,5 @@
 import { ImHtmlFive, ImCss3 } from "react-icons/im";
-import { SiJavascript, SiReact, SiStyledComponents, SiFigma, SiVisualstudio, SiGatsby} from "react-icons/si";
+import { SiJavascript, SiReact, SiStyledComponents, SiFigma, SiVisualstudio, SiGatsby, SiPython} from "react-icons/si";
 import { FaSass, FaNode } from "react-icons/fa";
 
 import "../styles.css";
@@ -14,10 +14,10 @@ const Skills = () => {
         <SiJavascript className="skillIcon" />
         <FaSass className="skillIcon" />
         <SiReact className="skillIcon" />
-        <SiGatsby className="skillIcon" />
         <SiStyledComponents className="skillIcon" />
+        <SiGatsby className="skillIcon" />
         <FaNode className="skillIcon" />
-        <SiFigma className="skillIcon" />
+        <SiPython className="skillIcon" />
         <SiVisualstudio className="skillIcon" />
       </div>
     </div>
