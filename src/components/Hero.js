@@ -1,9 +1,7 @@
 import "../styles.css";
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import heroImage from '../static/images/hero_image.jpeg';
-
-
+import heroImage from "../static/images/hero_image.jpeg";
 
 const Hero = () => {
   return (
@@ -11,19 +9,31 @@ const Hero = () => {
       <div className="heroContentContainer">
         <div className="heroContent">
           <h2>
-            <span>Hi,</span><br/> this is <span className='nameSpan'>Sergen</span>.<br/> Welcome to my portfolio website.
+            <span>Hi,</span>
+            <br /> this is <span className="nameSpan">Sergen</span>.<br />{" "}
+            Welcome to my portfolio website.
           </h2>
           <p>
-            I am a community-taught web developer and I use modern technologies to
+            I am a self-taught web developer and I use modern technologies to
             create cool things on the web.
           </p>
           <div className="heroButtonsContainer">
-          <button className="viewProjectsButton">
-            <Link to="/projects">View Projects<span><BsArrowRight size="25px"/></span></Link>
-          </button>
-          <button className="connectButton">
-            <Link to="/contact">Get in touch!<span><BsArrowRight size="25px"/></span></Link>
-          </button>
+            <button className="viewProjectsButton">
+              <Link to="/projects">
+                View Projects
+                <span>
+                  <BsArrowRight size="25px" />
+                </span>
+              </Link>
+            </button>
+            <button className="connectButton">
+              <Link to="/contact">
+                Get in touch!
+                <span>
+                  <BsArrowRight size="25px" />
+                </span>
+              </Link>
+            </button>
           </div>
         </div>
       </div>
