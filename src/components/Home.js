@@ -6,13 +6,13 @@ import CallToAction from "./CallToAction";
 
 const Home = () => {
   useEffect(() => {
-     window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="homeOuterContainer">
       <Hero />
-      <Services />
       <Skills />
+      <Services />
       <CallToAction />
     </div>
   );
