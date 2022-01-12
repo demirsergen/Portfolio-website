@@ -4,8 +4,8 @@ import "../styles.css";
 
 const Projects = () => {
   useEffect(() => {
-     window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="projectsOuterContainer">
       <h1 className="projectsTitle">Projects</h1>

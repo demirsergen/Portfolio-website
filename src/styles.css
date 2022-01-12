@@ -99,7 +99,7 @@ header {
   background: url("../src/static/images/hero_image.jpeg");
   background-size: cover;
   padding: 7em 4em;
-  min-height: 91vh;
+  min-height: 92vh;
 }
 
 .heroOuterContainer .overlay {
@@ -135,7 +135,7 @@ header {
 
 .heroContent .viewProjectsButton,
 .connectButton {
-  padding: 1em 1.2em;
+  padding: 0.7em 1em;
   margin-top: 1em;
   border: none;
   border-radius: 10px;
@@ -307,7 +307,7 @@ header {
   border-radius: 10px;
   color: black;
   text-decoration: none;
-  background: rgb(200, 200, 200);
+  background: rgb(225, 225, 225);
 }
 
 .link:hover {
@@ -493,7 +493,6 @@ header {
 
 .CallToActionContent h1 {
   margin-bottom: 1em;
-  font-size: 2.5rem;
 }
 
 .callToActionButton {
@@ -587,8 +586,8 @@ header {
 
 .service {
   text-align: center;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-  padding: 1.5em 2em;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  padding: 1.5em;
   background: rgb(245, 245, 245);
   border-radius: 10px;
   transform: scale(1);
@@ -598,7 +597,7 @@ header {
   cursor: default;
 }
 
-.service h3 {
+.service h4 {
   margin: 1em 0;
 }
 

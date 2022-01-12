@@ -12,7 +12,7 @@ const Services = () => {
           <div>
             <MdLaptop size="50px" />
           </div>
-          <h3>Web Development</h3>
+          <h4>Web Development</h4>
           <p>
             Building the web using modern tools like React that are blazing
             fast.
@@ -22,14 +22,14 @@ const Services = () => {
           <div>
             <MdSettings size="50px" />
           </div>
-          <h3>UI/UX Design</h3>
+          <h4>UI/UX Design</h4>
           <p>Building responsive and easy to use modern websites.</p>
         </div>
         <div className="service">
           <div>
             <FaMobile size="50px" />
           </div>
-          <h3>Mobile App Development</h3>
+          <h4>Mobile App Development</h4>
           <p>Building simple, cross-platform mobile apps with React Native.</p>
         </div>
       </div>
