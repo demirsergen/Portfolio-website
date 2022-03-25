@@ -1,10 +1,16 @@
+import image0 from '../static/images/wordle-clone.png';
 import image1 from '../static/images/note-taking-app.png';
 import image2 from '../static/images/prs.png';
 import image3 from '../static/images/weatherapp.png';
-import image4 from '../static/images/palindrome.png';
-import image5 from '../static/images/meme.png';
  
 export const data = [
+  {
+    name: "Wordle clone",
+    tags: ["React", "CSS"],
+    img: image0,
+    visit: "https://wordle-clone2022.netlify.app",
+    source: "https://github.com/demirsergen/wordle-clone"
+  },
   {
     name: "Note Taking App",
     tags: ["React", "CSS"],
@@ -14,10 +20,10 @@ export const data = [
   },
   {
     name: "Rock-Paper-Scissors",
-    tags: ["React", "CSS"],
+    tags: ["JS", "CSS"],
     img: image2,
-    visit: "https://codesandbox.io/s/rock-paper-scissors-ewo03",
-    source: "https://codesandbox.io/s/rock-paper-scissors-ewo03"
+    visit: "https://rock-paper-sci.netlify.app",
+    source: "https://github.com/demirsergen/rock-paper-scissors-master"
   },
   {
     name: "Weather App",
@@ -25,19 +31,5 @@ export const data = [
     img:image3,
     visit: "https://weatherapi-2021.netlify.app",
     source: "https://github.com/demirsergen/weather_app"
-  },
-  {
-    name: "Palindrome",
-    tags: ["React", "CSS"],
-    img:image4,
-    visit: "https://palindrome-2021.netlify.app",
-    source: "https://github.com/demirsergen/palindrome"
-  },
-  {
-    name: "Meme Generator",
-    tags: ["React", "CSS"],
-    img:image5,
-    visit: "https://generate-meme2020.netlify.app",
-    source: "https://github.com/demirsergen/meme-generator"
   }
 ];
