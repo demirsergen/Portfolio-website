@@ -2,8 +2,17 @@ import image0 from '../static/images/wordle-clone.png';
 import image1 from '../static/images/note-taking-app.png';
 import image2 from '../static/images/prs.png';
 import image3 from '../static/images/weatherapp.png';
+import image4 from '../static/images/personal-website.png';
+
  
 export const data = [
+  {
+    name: "Personal Website",
+    tags: ["React", "CSS"],
+    img: image4,
+    visit: "https://sergendemir.com",
+    source: "https://github.com/demirsergen/Portfolio-website"
+  },
   {
     name: "Wordle clone",
     tags: ["React", "CSS"],
