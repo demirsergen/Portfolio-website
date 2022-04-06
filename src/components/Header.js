@@ -25,17 +25,17 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="/Projects" onClick={scrollUp}>
+              <Link to="/projects" onClick={scrollUp}>
                 Projects
               </Link>
             </li>
             <li>
-              <Link to="/About" onClick={scrollUp}>
+              <Link to="/about" onClick={scrollUp}>
                 About
               </Link>
             </li>
             <li>
-              <Link to="/Contact" onClick={scrollUp}>
+              <Link to="/contact" onClick={scrollUp}>
                 Contact
               </Link>
             </li>
