@@ -38,7 +38,7 @@ export const data = [
     name: "Weather App",
     tags: ["JS", "CSS"],
     img:image3,
-    visit: "https://weatherapi-2021.netlify.app",
-    source: "https://github.com/demirsergen/weather_app"
+    visit: "https://weather2022app.netlify.app",
+    source: "https://github.com/demirsergen/weather-app2"
   }
 ];
