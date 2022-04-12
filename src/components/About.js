@@ -12,12 +12,11 @@ const About = () => {
         <div className="aboutContentContainer">
           <h1 className="aboutTitle">About Me</h1>
           <p>
-            Hello, this is Sergen and I'm a self-taught web developer. I've been
-            learning how to code since September 2019. I started with HTML and
-            CSS on FreeCodecamp and then moved onto JavaScript and Python. I
-            enjoy learning new technologies and concepts.
+            Hello, this is Sergen and I'm a self-taught web developer. I currently live in Chicago, IL. I've been
+            learning how to code for over 2 years now. I started with <strong>Responsive Web Design on FreeCodecamp and then moved on to JavaScript Algorithms and Data Structures.</strong> I love working with <strong>React</strong> and I do put in the effort to master it. But I also like learning new technologies, languages and concepts to improve my understanding of this field. 
           </p>
           <br />
+          <p>A little bit of background about my education:</p>
           <p>
             I got myself<strong> a degree in Psychology</strong> and then I went
             on and moved to the UK to get my
@@ -27,7 +26,7 @@ const About = () => {
             <strong>I had to learn how to code.</strong>
           </p>
           <br />
-          <Link to="/contact">Let's have a chat!</Link>
+          <Link to="/contact" className="about-link">Let's have a chat!</Link>
           <div className="aboutResources">
             <h4>Main Resources I've Used:</h4>
             <ul>
