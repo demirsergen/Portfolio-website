@@ -99,7 +99,7 @@ header {
   background: url("../src/static/images/hero_image.jpeg");
   background-size: cover;
   padding: 7em 4em;
-  min-height: 92vh;
+  min-height: 95vh;
 }
 
 .heroOuterContainer .overlay {
@@ -190,17 +190,6 @@ header {
   font-weight: 300;
 }
 
-/* .imageContainer {
-  position: relative;
-  z-index: 1;
-  text-align: right;
-} */
-/* 
-.imageContainer img {
-  max-width: 70%;
-  border-radius: 10%;
-} */
-
 @media (max-width: 435px) {
   .heroContentContainer {
     color: white;
@@ -233,13 +222,49 @@ header {
   .heroContent p {
     font-size: 1rem;
     margin-bottom: 1em;
-    letter-spacing: 0.3ch;
-  }
-  /* 
-  .imageContainer {
-    display: none;
-  } */
+    letter-spacing: 0.1ch;
+}  
 }
+
+@media (min-width: 1500px) {
+  .heroContentContainer {
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+
+.heroContent h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1em;
+  font-weight: 300;
+  letter-spacing: 0ch;
+}
+
+.heroContent h2 span {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.heroContent h2 .nameSpan {
+  font-size: 3rem;
+  color: rgb(245, 170, 32);
+  font-weight: 500;
+}
+
+.heroContent p {
+  font-size: 2rem;
+  color: rgb(245, 245, 245);
+  margin: 1em 0;
+  max-width: 70ch;
+  font-weight: 300;
+}
+}
+
 
 /* Projects Page */
 
@@ -751,3 +776,4 @@ textarea {
     display: none;
   }
 }
+
