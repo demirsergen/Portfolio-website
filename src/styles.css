@@ -634,8 +634,8 @@ header {
 }
 
 .contactTitle {
-  margin-left: 3.2em;
-  margin-top: 1em;
+  max-width: 1200px;
+  margin: 1em auto 0;
 }
 
 .contactContainer {

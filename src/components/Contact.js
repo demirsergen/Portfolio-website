@@ -33,7 +33,7 @@ const Contact = () => {
             <label>Message: </label>
             <textarea name="message" cols="20" rows="5" required></textarea>
           </div>
-          <button type="submit" >Submit</button>
+          <button type="submit">Submit</button>
         </form>
         <div className="contactImageContainer">
           <img src={image} alt="" />
