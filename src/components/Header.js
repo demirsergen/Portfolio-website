@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import { Link, Switch } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { GrCompass } from "react-icons/gr";
 import "../styles.css";
 
@@ -9,40 +8,36 @@ const Header = () => {
   };
 
   return (
-    <Switch>
-      <header>
-        <div className="headerContainer">
-          <div className="brand" onClick={scrollUp}>
-            <Link to="/">
-              <GrCompass size="30px" />
-              <h2>Sergen Demir</h2>
-            </Link>
-          </div>
-          <ul className="navLinks">
-            <li>
-              <Link to="/" onClick={scrollUp}>
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link to="/projects" onClick={scrollUp}>
-                Projects
-              </Link>
-            </li>
-            <li>
-              <Link to="/about" onClick={scrollUp}>
-                About
-              </Link>
-            </li>
-            <li>
-              <Link to="/contact" onClick={scrollUp}>
-                Contact
-              </Link>
-            </li>
-          </ul>
+    <header>
+      <div className="headerContainer">
+        <div className="brand" onClick={scrollUp}>
+          <Link to="/">
+            <GrCompass size="30px" />
+            <h2>Sergen Demir</h2>
+          </Link>
         </div>
-      </header>
-    </Switch>
+        <ul className="navLinks">
+          <Link to="/" onClick={scrollUp}>
+            Home
+          </Link>
+          <Link to="projects" onClick={scrollUp}>
+            Projects
+          </Link>
+
+          <Link to="about" onClick={scrollUp}>
+            About
+          </Link>
+
+          <Link to="blog" onClick={scrollUp}>
+            Blog
+          </Link>
+
+          <Link to="contact" onClick={scrollUp}>
+            Contact
+          </Link>
+        </ul>
+      </div>
+    </header>
   );
 };
 
