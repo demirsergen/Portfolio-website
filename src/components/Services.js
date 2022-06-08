@@ -14,8 +14,8 @@ const Services = () => {
           </div>
           <h4>Web Development</h4>
           <p>
-            Building the web using modern tools like React that are blazing
-            fast.
+            Building the web using modern tools to create blazing fast user
+            interfaces.
           </p>
         </div>
         <div className="service">
@@ -23,7 +23,7 @@ const Services = () => {
             <MdSettings size="50px" />
           </div>
           <h4>UI/UX Design</h4>
-          <p>Building responsive and easy to use modern websites.</p>
+          <p>Designing responsive, beautiful and user friendly interfaces.</p>
         </div>
         <div className="service">
           <div>

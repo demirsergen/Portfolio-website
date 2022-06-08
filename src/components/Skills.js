@@ -2,12 +2,15 @@ import { ImHtmlFive, ImCss3 } from "react-icons/im";
 import {
   SiJavascript,
   SiReact,
+  SiTypescript,
   SiStyledComponents,
-  SiFigma,
+  SiTailwindcss,
   SiVisualstudio,
+  SiFirebase,
   SiGatsby,
   SiPython,
 } from "react-icons/si";
+
 import { FaSass, FaNode } from "react-icons/fa";
 
 import "../styles.css";
@@ -30,20 +33,28 @@ const Skills = () => {
           <p>JavaScript</p>
         </div>
         <div className="stackIconsContainer__skill">
-          <FaSass className="skillIcon" />
-          <p>Sass</p>
-        </div>
-        <div className="stackIconsContainer__skill">
           <SiReact className="skillIcon" />
           <p>React JS</p>
+        </div>
+        <div className="stackIconsContainer__skill">
+          <SiTypescript className="skillIcon" />
+          <p>TypeScript</p>
+        </div>
+        <div className="stackIconsContainer__skill">
+          <FaSass className="skillIcon" />
+          <p>Sass</p>
         </div>
         <div className="stackIconsContainer__skill">
           <SiStyledComponents className="skillIcon" />
           <p>Styled Components</p>
         </div>
         <div className="stackIconsContainer__skill">
-          <SiGatsby className="skillIcon" />
-          <p>Gatsby JS</p>
+          <SiTailwindcss className="skillIcon" />
+          <p>Tailwind CSS</p>
+        </div>
+        <div className="stackIconsContainer__skill">
+          <SiFirebase className="skillIcon" />
+          <p>Firebase</p>
         </div>
         <div className="stackIconsContainer__skill">
           <FaNode className="skillIcon" />

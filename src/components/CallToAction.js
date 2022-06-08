@@ -9,9 +9,9 @@ const CallToAction = () => {
         <h1>Let's build something cool together!</h1>
         <button className="callToActionButton">
           <Link to="/Contact">
-            Let's Talk!
+            Let's Connect!
             <span>
-              <BsArrowRight size="25px" />
+              <BsArrowRight size="20px" />
             </span>
           </Link>
         </button>

@@ -43,8 +43,31 @@ const Contact = () => {
       <div className="contactPageNoteContainer">
         <p>
           <strong>Note:</strong> The fastest way to reach me would probably be
-          messaging me on social media! Please do not hesitate to say hi!{" "}
+          social media! Please do not hesitate to say hi!
         </p>
+        <div className="contactIconContainer">
+          <a
+            href="https://www.linkedin.com/in/sergendemir/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <TiSocialLinkedin className="contact-icon" />
+          </a>
+          <a
+            href="https://github.com/demirsergen"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <TiSocialGithub className="contact-icon" />
+          </a>
+          <a
+            href="https://twitter.com/sergenddemir"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <TiSocialTwitter className="contact-icon" />
+          </a>
+        </div>
       </div>
     </div>
   );

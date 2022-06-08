@@ -28,7 +28,7 @@ const Hero = () => {
             </button>
             <button className="connectButton">
               <Link to="/contact">
-                Let's Talk!
+                Let's Connect!
                 <span>
                   <BsArrowRight size="25px" />
                 </span>

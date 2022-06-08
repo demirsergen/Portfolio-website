@@ -454,11 +454,12 @@ header {
 .stackIconsContainer {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2em 0;
+  padding: 0;
   display: grid;
   place-items: center;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-gap: 4em;
+  grid-gap: 2em;
+  padding: 2em;
 }
 
 .stackIconsContainer__skill {
@@ -478,7 +479,7 @@ header {
   position: relative;
   max-width: max-content;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 1em;
 }
 
 .skillsTitle::after {
@@ -592,7 +593,7 @@ header {
 /* Services Section */
 
 .servicesOuterContainer {
-  padding: 3em 0;
+  padding: 2em 0;
   text-align: center;
   position: relative;
 }
@@ -600,7 +601,7 @@ header {
 .servicesTitle {
   position: relative;
   width: max-content;
-  margin: 0 auto;
+  margin: 0 auto 1em;
   font-size: 2rem;
 }
 
@@ -748,6 +749,20 @@ textarea {
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   background: white;
+}
+
+.contactIconContainer {
+  display: inline-block;
+  align-items: center;
+}
+
+.contactIconContainer .contact-icon {
+  color: black;
+  font-size: 30px;
+}
+.contactIconContainer .contact-icon:hover {
+  color: rgb(245, 170, 32);
+  transition: all 0.3s ease-in-out;
 }
 
 @media (max-width: 415px) {
