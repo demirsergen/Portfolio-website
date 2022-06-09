@@ -1,0 +1,30 @@
+{
+  "root": true,
+  "project": {
+    "name": "portfolio_blog"
+  },
+  "api": {
+    "projectId": "kma5le70",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool"
+  ],
+  "scripts": {
+    "start": "sanity start"
+  },
+  "env": {
+    "development": {
+      "plugins": ["@sanity/vision"]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    }
+  ]
+}
