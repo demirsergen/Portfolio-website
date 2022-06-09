@@ -1,7 +1,50 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import "../styles.css";
+import sanityClient from "../client";
+import { Link } from "react-router-dom";
 
 const Blog = () => {
-  return <div>Blog</div>;
+  const [posts, setPosts] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
+
+  useEffect(() => {
+    sanityClient
+      .fetch(
+        `*[_type == 'post']{
+        title,
+        slug,
+        mainImage{
+          asset->{
+            _id,
+            url
+          }
+        }
+      }`
+      )
+      .then((data) => setPosts(data))
+      .catch((error) => console.error(error));
+  }, []);
+  return (
+    <div className="blog__outerContainer">
+      <h1>Blog Posts</h1>
+      <div className="blog_posts-container">
+        {posts?.map((post, i) => {
+          return (
+            <div className="blog__post">
+              <img src={post.mainImage.asset.url} alt="main hero image" />
+              <Link to={"/" + post.slug.current} key={post.slug.current}>
+                <span key={i}>
+                  <span>
+                    <h2>{post.title}</h2>
+                  </span>
+                </span>
+              </Link>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
 };
 
 export default Blog;
