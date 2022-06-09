@@ -13,9 +13,6 @@
     "@sanity/default-login",
     "@sanity/desk-tool"
   ],
-  "scripts": {
-    "start": "sanity start"
-  },
   "env": {
     "development": {
       "plugins": ["@sanity/vision"]
