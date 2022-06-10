@@ -35,7 +35,7 @@ const Blog = () => {
               <Link to={"/" + post.slug.current} key={post.slug.current}>
                 <span key={i}>
                   <span>
-                    <h2>{post.title}</h2>
+                    <h3>{post.title}</h3>
                   </span>
                 </span>
               </Link>
