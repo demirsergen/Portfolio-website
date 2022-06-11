@@ -23,7 +23,7 @@ const Services = () => {
             <MdSettings size="50px" />
           </div>
           <h4>UI/UX Design</h4>
-          <p>Designing responsive, beautiful and user friendly interfaces.</p>
+          <p>Designing responsive, beautiful and user-friendly interfaces.</p>
         </div>
         <div className="service">
           <div>

@@ -14,8 +14,8 @@ const Hero = () => {
             Welcome to my portfolio website.
           </h2>
           <p>
-            I am a self-taught web developer and I use modern technologies to
-            create cool things for the web.
+            I am a self-taught web developer and I use modern technologies like
+            React to create cool things for the web.
           </p>
           <div className="heroButtonsContainer">
             <button className="viewProjectsButton">
