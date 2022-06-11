@@ -46,7 +46,7 @@ const BlogPost = () => {
         <div className="blogpost__info-container">
           <div>
             <img
-              src={urlFor(currentPost.authorImage).width(100).url()}
+              src={urlFor(currentPost.authorImage).width(200).url()}
               alt="author is Sergen"
               className="blogpost__author-img"
             />
@@ -59,7 +59,7 @@ const BlogPost = () => {
           </div>
         </div>
         <img
-          src={urlFor(currentPost.mainImage).width(200).url()}
+          src={urlFor(currentPost.mainImage).width(1200).url()}
           alt="main image of post"
           className="blogpost__mainImage"
         />

@@ -24,9 +24,16 @@ const Blog = () => {
       .then((data) => setPosts(data))
       .catch((error) => console.error(error));
   }, []);
+
+  if (!posts) return <div>Loading...</div>;
+
   return (
     <div className="blog__outerContainer">
-      <h1>Blog Posts</h1>
+      {posts?.length < 1 ? (
+        <p>There isn't any published blog posts at this moment.</p>
+      ) : (
+        <h1>Blog posts</h1>
+      )}
       <div className="blog_posts-container">
         {posts?.map((post, i) => {
           return (
