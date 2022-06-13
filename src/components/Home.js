@@ -11,8 +11,8 @@ const Home = () => {
   return (
     <div className="homeOuterContainer">
       <Hero />
-      <Services />
       <Skills />
+      <Services />
       <CallToAction />
     </div>
   );

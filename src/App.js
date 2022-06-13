@@ -12,16 +12,18 @@ import BlogPost from "./components/BlogPost";
 export default function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="app">
         <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="projects" element={<Projects />} />
-          <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="blog" element={<Blog />} />
-          <Route path=":slug" element={<BlogPost />} />
-        </Routes>
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="projects" element={<Projects />} />
+            <Route path="about" element={<About />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="blog" element={<Blog />} />
+            <Route path=":slug" element={<BlogPost />} />
+          </Routes>
+        </main>
         <Footer />
       </div>
     </BrowserRouter>
