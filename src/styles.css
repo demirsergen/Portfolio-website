@@ -813,7 +813,6 @@ textarea {
   padding: 2em;
   height: 100%;
   background: rgb(245, 245, 245);
-  border: 1px solid red;
 }
 
 .blog__outerContainer h1 {
