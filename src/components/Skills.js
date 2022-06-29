@@ -5,6 +5,7 @@ import {
   SiStyledComponents,
   SiTailwindcss,
   SiFirebase,
+  SiRedux,
 } from "react-icons/si";
 
 import { FaSass, FaNode } from "react-icons/fa";
@@ -39,6 +40,10 @@ const Skills = () => {
         <div className="stackIconsContainer__skill">
           <SiFirebase className="skillIcon" />
           <p>Firebase</p>
+        </div>
+        <div className="stackIconsContainer__skill">
+          <SiRedux className="skillIcon" />
+          <p>Redux</p>
         </div>
         <div className="stackIconsContainer__skill">
           <FaNode className="skillIcon" />
