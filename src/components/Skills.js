@@ -6,6 +6,7 @@ import {
   SiTailwindcss,
   SiFirebase,
   SiRedux,
+  SiNextDotJs,
 } from "react-icons/si";
 
 import { FaSass, FaNode } from "react-icons/fa";
@@ -26,8 +27,8 @@ const Skills = () => {
           <p>React JS</p>
         </div>
         <div className="stackIconsContainer__skill">
-          <SiTypescript className="skillIcon" />
-          <p>TypeScript</p>
+          <SiNextDotJs className="skillIcon" />
+          <p>NextJS</p>
         </div>
         <div className="stackIconsContainer__skill">
           <FaSass className="skillIcon" />
