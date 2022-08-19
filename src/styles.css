@@ -194,9 +194,9 @@ header {
   font-weight: 500;
 }
 
-.heroContent p {
+.heroContent > p {
   font-size: 1.5rem;
-  color: rgb(209, 209, 209);
+  color: rgb(194, 194, 194);
   margin: 1em 0;
   max-width: 70ch;
   font-weight: 300;
@@ -235,7 +235,7 @@ header {
     font-size: 1rem;
     margin-bottom: 1em;
     letter-spacing: 0.1ch;
-}  
+  }
 }
 
 @media (min-width: 1500px) {
@@ -249,34 +249,31 @@ header {
     justify-content: space-between;
   }
 
+  .heroContent h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+    font-weight: 300;
+    letter-spacing: 0ch;
+  }
 
-.heroContent h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1em;
-  font-weight: 300;
-  letter-spacing: 0ch;
-}
+  .heroContent h2 span {
+    font-size: 2.5rem;
+    font-weight: 300;
+  }
 
-.heroContent h2 span {
-  font-size: 2.5rem;
-  font-weight: 300;
-}
+  .heroContent h2 .nameSpan {
+    font-size: 2.5rem;
+    color: rgb(245, 170, 32);
+    font-weight: 500;
+  }
 
-.heroContent h2 .nameSpan {
-  font-size: 3rem;
-  color: rgb(245, 170, 32);
-  font-weight: 500;
+  .heroContent p {
+    font-size: 2rem;
+    margin: 1em 0;
+    max-width: 70ch;
+    font-weight: 300;
+  }
 }
-
-.heroContent p {
-  font-size: 2rem;
-  color: rgb(245, 245, 245);
-  margin: 1em 0;
-  max-width: 70ch;
-  font-weight: 300;
-}
-}
-
 
 /* Projects Page */
 
@@ -483,10 +480,14 @@ header {
   justify-content: center;
 }
 
+.stackIconsContainer__skill p {
+  color: rgb(105, 105, 105);
+}
+
 .stackIconsContainer .skillIcon {
   min-width: 60px;
   height: 60px;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 .skillsTitle {
@@ -657,6 +658,10 @@ header {
   margin: 1em 0;
 }
 
+.service p {
+  color: rgb(105, 105, 105);
+}
+
 @keyframes float {
   0% {
     transform: translateY(0) translateX(0);
@@ -807,7 +812,6 @@ textarea {
   }
 }
 
-
 /* Blog Component */
 
 .blog__outerContainer {
@@ -844,19 +848,17 @@ textarea {
 
 .blog__post span h3 {
   text-align: center;
-  padding: .5em 0;
+  padding: 0.5em 0;
   color: black;
 }
 
 .blog__post a {
   text-decoration: none;
-
 }
 
 .blog__post img {
   max-width: 100%;
 }
-
 
 /* BlogPost Component */
 
@@ -882,7 +884,7 @@ textarea {
   z-index: 3;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   padding: 3em;
 }
 
