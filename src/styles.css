@@ -11,7 +11,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  /* min-height: 100vh; */
 }
 
 .app {
@@ -283,9 +282,10 @@ header {
 
 .projectsOuterContainer {
   width: 100vw;
+  min-height: 85vh;
   margin-top: 0.5em;
   background: rgb(245, 245, 245);
-  padding: 1em 0;
+  padding: 1em;
 }
 
 .projectsTitle {
@@ -376,7 +376,7 @@ header {
 
 .aboutOuterContainer {
   width: 100vw;
-  min-height: 90vh;
+  min-height: 85vh;
   background: rgb(245, 245, 245);
 }
 
@@ -670,7 +670,8 @@ header {
 
 .contactOuterContainer {
   width: 100vw;
-  padding: 1em;
+  min-height: 85vh;
+  padding: 2em 1em;
   background: rgb(245, 245, 245);
 }
 
@@ -812,7 +813,7 @@ textarea {
 .blog__outerContainer {
   width: 100vw;
   padding: 2em;
-  height: 100%;
+  min-height: 85vh;
   background: rgb(245, 245, 245);
 }
 
