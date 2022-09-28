@@ -13,6 +13,7 @@
   .app {
     overflow-x: hidden;
   }
+
 }
 
 body {
@@ -24,8 +25,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 100vh;
-  width: 100vw;
 }
 
 .App > main {
@@ -97,7 +96,7 @@ header {
     top: 0;
     z-index: 2;
     background: white;
-    width: 100vw;
+    width: 100%;
   }
   .navLinks {
     margin-top: 0.5em;
@@ -209,6 +208,11 @@ header {
 }
 
 @media (max-width: 420px) {
+  .heroOuterContainer {
+    padding: 2em 1em;
+    margin-top: 7em;
+    min-height: 50vh;
+  }
   .heroContentContainer {
     max-width: 100vw;
     color: white;
@@ -217,15 +221,9 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin-top: 7em;
-  }
-
-  .heroOuterContainer {
-    padding: 2em 1em;
-    min-height: 60vh;
   }
   .heroContent {
-    text-align: center;
+    text-align: left;
     justify-content: space-between;
     padding: 1em;
   }
@@ -299,7 +297,7 @@ header {
 
 .projectsTitle {
   text-align: center;
-  margin: 0.5em 0;
+  margin:  0;
 }
 
 .projectsContainer {
@@ -370,22 +368,17 @@ header {
 
 @media (max-width: 420px) {
   .projectsOuterContainer {
-    margin-top: 7.5em;
+    margin-top: 7em;
   }
   .projectsInfo h4 {
     margin-bottom: 0.3em;
-  }
-
-  .project .s {
-    margin-bottom: 1em;
   }
 }
 
 /* About Page */
 
 .aboutOuterContainer {
-  width: 100vw;
-  min-height: 85vh;
+  width: 100%;
   background: rgb(245, 245, 245);
 }
 
@@ -399,12 +392,12 @@ header {
 }
 
 .aboutTitle {
-  margin: 0 auto 1em;
+  margin: 0 auto;
 }
 
 .aboutContentContainer {
   flex: 1;
-  padding: 1em 0;
+  padding:  0;
   text-align: left;
   line-height: 2;
 }
@@ -452,9 +445,11 @@ header {
 }
 
 @media (max-width: 420px) {
+.aboutOuterContainer {
+  margin-top: 7em;
+}
   .aboutContainer {
     flex-direction: column;
-    margin-top: 7em;
   }
 
   .aboutTitle {
@@ -590,6 +585,16 @@ header {
   background: rgba(245, 171, 32, 0.791);
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 420px) {
+  .CallToActionContent h1 {
+    font-size: 1.5rem;
+  }
+
+  .callToActionButton a {
+    font-size: 0.8rem;
+  }
 }
 
 /* Footer Component */
@@ -810,7 +815,7 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
-@media (max-width: 415px) {
+@media (max-width: 420px) {
   .contactOuterContainer {
     margin-top: 7em;
     max-width: 415px;
@@ -824,8 +829,8 @@ textarea {
   }
 
   .contactOuterContainer form {
-    max-width: 350px;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 0 auto 1em;
   }
 
   .contactOuterContainer form .formSection label {
@@ -833,6 +838,15 @@ textarea {
   }
 
   .contactImageContainer {
+    display: none;
+  }
+
+  .contactTitle {
+    text-align: center;
+    padding: .5em;
+  }
+
+  .contactIconContainer {
     display: none;
   }
 }
@@ -911,6 +925,8 @@ textarea {
   top: 50%;
   transform: translate(-50%, -50%);
   padding: 3em;
+  
+
 }
 
 .blogpost__author-img {
@@ -943,4 +959,16 @@ textarea {
 
 .blogpost__body img {
   max-width: 100%;
+}
+
+@media (max-width: 420px) {
+  .blog__outerContainer {
+    margin-top: 7em;
+  }
+
+  .blog_posts-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
