@@ -10,7 +10,7 @@ const Projects = () => {
     <div className="projectsOuterContainer">
       <h1 className="projectsTitle">Projects</h1>
       <div className="projectsContainer">
-        {data.map((project, index) => (
+        {data?.map((project, index) => (
           <div key={index} className="project">
             <img src={project.img} alt="" />
             <div className="projectsInfo">

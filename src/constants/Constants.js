@@ -3,6 +3,7 @@ import image1 from "../static/images/note-taking-app.png";
 import image2 from "../static/images/e-commerce.png";
 import image3 from "../static/images/weatherapp.png";
 import image4 from "../static/images/personal-website.png";
+import image5 from "../static/images/braindumps.png";
 
 export const data = [
   {
@@ -13,7 +14,14 @@ export const data = [
     source: "https://github.com/demirsergen/Portfolio-website",
   },
   {
-    name: "Wordle clone",
+    name: "Braindumps - Idea Sharing Platform",
+    tags: ["Next JS", "Tailwind", "Firebase"],
+    img: image5,
+    visit: "https://braindumps.netlify.app",
+    source: "https://github.com/demirsergen/brain-dump",
+  },
+  {
+    name: "Wordle Clone",
     tags: ["React", "CSS"],
     img: image0,
     visit: "https://wordle-clone2022.netlify.app",
