@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { GrCompass } from "react-icons/gr";
 import "../styles.css";
+import Resume from "./Resume";
 
 const Header = () => {
   const scrollUp = () => {
@@ -35,6 +36,7 @@ const Header = () => {
           <Link to="contact" onClick={scrollUp}>
             Contact
           </Link>
+          <Resume />
         </ul>
       </div>
     </header>
