@@ -89,7 +89,7 @@ header {
 
 @media (max-width: 420px) {
   .headerContainer {
-    padding: 1em;
+    padding: .5em;
     flex-direction: column;
     position: fixed;
     left: 0;
@@ -101,11 +101,12 @@ header {
   .navLinks {
     margin-top: 0.5em;
     justify-content: space-between;
-    gap: 1em;
+    gap: .5em;
   }
 
   .navLinks a {
     font-size: 1rem;
+
   }
 }
 
@@ -476,15 +477,13 @@ header {
   }
 }
 
-
-
 /* Skills Component */
 
 .skillsOuterContainer {
   padding: 2em 0;
   margin: 0 auto;
   max-width: 100vw;
-  background: rgb(245, 245, 245);
+  
 }
 
 .stackIconsContainer {
@@ -544,6 +543,68 @@ header {
     min-width: 50px;
     height: 50px;
   }
+}
+
+/* PopularProjects Component */
+
+.popularProjectsOuterContainer {
+  padding: 2em 0;
+  margin: 0 auto;
+  max-width: 100vw;
+  background: rgb(245, 245, 245);
+}
+
+.popularProjectsContainer {
+  max-width: 1200px;
+  padding: 2em;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+  grid-gap: 2em;
+  justify-content: space-evenly;
+}
+
+.popularProjectsTitle {
+  position: relative;
+  max-width: max-content;
+  display: block;
+  margin: 0 auto 1em;
+}
+
+.popularProjectsTitle::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom:0;
+  width: 265px;
+  height: 5px;
+  background: rgb(245, 170, 32);
+}
+
+.popularProjectsButton {
+  padding: 1em 1.5em;
+  border: none;
+  border-radius: 10px;
+  background: rgb(245, 170, 32);
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+}
+
+.popularProjectsButton a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.popularProjectsButton:hover {
+  background: rgba(245, 171, 32, 0.791);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 /* CallToAction Component */
