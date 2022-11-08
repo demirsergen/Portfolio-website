@@ -14,7 +14,7 @@ export const data = [
     source: "https://github.com/demirsergen/Portfolio-website",
   },
   {
-    name: "Braindumps - Idea Sharing Platform",
+    name: "Braindumps - Idea Sharing",
     tags: ["Next JS", "Tailwind", "Firebase"],
     img: image5,
     visit: "https://braindumps.netlify.app",
