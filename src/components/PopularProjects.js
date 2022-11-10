@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 
 const PopularProjects = () => {
   const popularProjects = data.slice(0, 3);
-  console.log(popularProjects);
   return (
     <div className="popularProjectsOuterContainer">
       <h1 className="popularProjectsTitle">Popular Projects</h1>

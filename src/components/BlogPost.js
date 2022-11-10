@@ -15,7 +15,6 @@ const BlogPost = () => {
   const [currentPost, setCurrentPost] = useState(null);
   const { slug } = useParams();
 
-  console.log(slug, slug);
   useEffect(() => {
     sanityClient
       .fetch(
