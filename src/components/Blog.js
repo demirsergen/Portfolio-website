@@ -37,7 +37,7 @@ const Blog = () => {
       <div className="blog_posts-container">
         {posts?.map((post, i) => {
           return (
-            <div className="blog__post">
+            <div className="blog__post" key={post.slug.current}>
               <img src={post.mainImage.asset.url} alt="main hero image" />
               <Link to={"/" + post.slug.current} key={post.slug.current}>
                 <span key={i}>
