@@ -1,7 +1,7 @@
-import React from "react";
-import { data } from "../constants/Constants";
-import Project from "./Project";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { data } from '../constants/Constants';
+import Project from './Project';
+import { Link } from 'react-router-dom';
 
 const PopularProjects = () => {
   const popularProjects = data.slice(0, 3);
@@ -14,7 +14,9 @@ const PopularProjects = () => {
         ))}
       </div>
       <button class="popularProjectsButton">
-        <Link to="/projects">Click for more...</Link>
+        <Link to="/projects">
+          <a>Click for more...</a>
+        </Link>
       </button>
     </div>
   );
