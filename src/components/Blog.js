@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
-import "../styles.css";
-import sanityClient from "../client";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from 'react';
+import '../styles.css';
+import sanityClient from '../client';
+import { Link } from 'react-router-dom';
 
 const Blog = () => {
   const [posts, setPosts] = useState(null);
@@ -38,8 +38,14 @@ const Blog = () => {
         {posts?.map((post, i) => {
           return (
             <div className="blog__post" key={post.slug.current}>
-              <img src={post.mainImage.asset.url} alt="main hero image" />
-              <Link to={"/" + post.slug.current} key={post.slug.current}>
+              <img
+                src={post.mainImage.asset.url}
+                alt="main hero image"
+              />
+              <Link
+                to={'/' + post.slug.current}
+                key={post.slug.current}
+              >
                 <span key={i}>
                   <span>
                     <h3>{post.title}</h3>

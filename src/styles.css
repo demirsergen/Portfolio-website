@@ -965,11 +965,6 @@ textarea {
   padding: 2em;
   min-height: 85vh;
   background: rgb(245, 245, 245);
-}
-
-.blog__outerContainer {
-  max-width: 1200px;
-  margin: 0 auto;
   text-align: center;
 }
 
