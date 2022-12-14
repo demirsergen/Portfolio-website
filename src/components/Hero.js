@@ -1,7 +1,9 @@
-import "../styles.css";
-import { BsArrowRight } from "react-icons/bs";
-import { Link } from "react-router-dom";
-import heroImage from "../static/images/hero_image.jpeg";
+import '../styles.css';
+import { BsArrowRight } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
+import vector1 from '../static/assets/vector1.svg';
+import vector2 from '../static/assets/vector2.svg';
+import vector3 from '../static/assets/vector3.svg';
 
 const Hero = () => {
   return (
@@ -9,13 +11,14 @@ const Hero = () => {
       <div className="heroContentContainer">
         <div className="heroContent">
           <h2>
-            <span>Hi,</span>
-            <br /> this is <span className="nameSpan">Sergen</span>.<br />{" "}
-            Welcome to my portfolio website.
+            <span>Hello, it's me</span>
+            <br />
+            <span className="nameSpan">Sergen.</span>
+            <br />
           </h2>
           <p>
-            I am a front-end web developer and I use modern technologies to
-            create cool things for the web.
+            I am a Frontend Web Developer and I use modern
+            technologies to create cool things for the web.
           </p>
           <div className="heroButtonsContainer">
             <button className="viewProjectsButton">
@@ -37,7 +40,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="overlay"></div>
+      <img src={vector3} alt="" className="hero__vector3" />
     </div>
   );
 };
