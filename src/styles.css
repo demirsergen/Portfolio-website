@@ -166,6 +166,12 @@ header {
   background: rgb(245, 245, 245);
 }
 
+.viewProjectsButton span {
+  display: flex;
+  align-items: center;
+  gap: .5em;
+}
+
 .heroContent .viewProjectsButton:hover,
 .connectButton:hover {
   background: rgba(245, 171, 32, 0.791);
@@ -177,9 +183,13 @@ header {
 .connectButton a {
   color: black;
   text-decoration: none;
+  gap: 0.5em;
+}
+
+.connectButton span {
   display: flex;
   align-items: center;
-  gap: 0.5em;
+  gap: .5em;
 }
 
 .heroContent h2 {

@@ -23,16 +23,16 @@ const Hero = () => {
           <div className="heroButtonsContainer">
             <button className="viewProjectsButton">
               <Link to="/projects">
-                View Projects
                 <span>
+                  View Projects
                   <BsArrowRight size="25px" />
                 </span>
               </Link>
             </button>
             <button className="connectButton">
               <Link to="/contact">
-                Let's Connect!
                 <span>
+                  Let's Connect!
                   <BsArrowRight size="25px" />
                 </span>
               </Link>
