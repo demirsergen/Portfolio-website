@@ -56,14 +56,6 @@ const About = () => {
               </li>
               <li>
                 <a
-                  href="https://www.youtube.com/freecodecamp"
-                  target="_blank"
-                >
-                  FreeCodeCamp Youtube
-                </a>
-              </li>
-              <li>
-                <a
                   href="https://www.codecademy.com/learn"
                   target="_blank"
                 >

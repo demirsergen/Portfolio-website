@@ -1,11 +1,11 @@
-import "../styles.css";
-import { useEffect } from "react";
+import '../styles.css';
+import { useEffect } from 'react';
 import {
   TiSocialLinkedin,
   TiSocialGithub,
   TiSocialTwitter,
-} from "react-icons/ti";
-import image from "../static/images/contact.svg";
+} from 'react-icons/ti';
+import image from '../static/images/contact.svg';
 
 const Contact = () => {
   useEffect(() => {
@@ -16,7 +16,11 @@ const Contact = () => {
       <h1 className="contactTitle">Contact Form</h1>
       <div className="contactContainer">
         <form name="contact" method="post">
-          <input type="hidden" name="form-name" value="contact"></input>
+          <input
+            type="hidden"
+            name="form-name"
+            value="contact"
+          ></input>
           <div className="formSection">
             <label>First Name: </label>
             <input type="text" name="firstname" required />
@@ -31,7 +35,12 @@ const Contact = () => {
           </div>
           <div className="formSection">
             <label>Message: </label>
-            <textarea name="message" cols="20" rows="5" required></textarea>
+            <textarea
+              name="message"
+              cols="20"
+              rows="5"
+              required
+            ></textarea>
           </div>
           <button type="submit">Submit</button>
         </form>
@@ -42,8 +51,8 @@ const Contact = () => {
       </div>
       <div className="contactPageNoteContainer">
         <p>
-          <strong>Note:</strong> The fastest way to reach me would probably be
-          social media! Please do not hesitate to say hi!
+          <strong>Note:</strong> The fastest way to reach me is via
+          social media! Let's connect!
         </p>
         <div className="contactIconContainer">
           <a
