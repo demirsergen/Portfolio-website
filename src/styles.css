@@ -618,7 +618,6 @@ header {
 }
 
 .popularProjectsButton {
-  padding: 1em 1.5em;
   border: none;
   border-radius: 10px;
   background: rgb(245, 170, 32);
@@ -636,6 +635,8 @@ header {
   display: flex;
   align-items: center;
   gap: 0.5em;
+  padding: .3em .6em;
+
 }
 
 .popularProjectsButton:hover {
