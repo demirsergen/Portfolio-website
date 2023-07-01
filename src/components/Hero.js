@@ -1,8 +1,6 @@
 import '../styles.css';
 import { BsArrowRight } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
-import vector1 from '../static/assets/vector1.svg';
-import vector2 from '../static/assets/vector2.svg';
 import vector3 from '../static/assets/vector3.svg';
 
 const Hero = () => {
