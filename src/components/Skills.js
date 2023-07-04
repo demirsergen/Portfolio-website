@@ -11,9 +11,9 @@ import {
   SiNextDotJs,
   SiHtml5,
   SiCss3,
+  SiSass,
+  SiNodeDotJs,
 } from 'react-icons/si';
-
-import { FaSass, FaNode, FaHtml5, FaCss3 } from 'react-icons/fa';
 
 import '../styles.css';
 
@@ -47,7 +47,7 @@ const Skills = () => {
           <p>MySQL</p>
         </div>
         <div className="stackIconsContainer__skill">
-          <FaSass className="skillIcon" />
+          <SiSass className="skillIcon" />
           <p>Sass</p>
         </div>
         <div className="stackIconsContainer__skill">
@@ -67,15 +67,15 @@ const Skills = () => {
           <p>Redux</p>
         </div>
         <div className="stackIconsContainer__skill">
-          <FaNode className="skillIcon" />
+          <SiNodeDotJs className="skillIcon" />
           <p>Node JS</p>
         </div>
         <div className="stackIconsContainer__skill">
-          <FaHtml5 className="skillIcon" />
+          <SiHtml5 className="skillIcon" />
           <p>HTML</p>
         </div>
         <div className="stackIconsContainer__skill">
-          <FaCss3 className="skillIcon" />
+          <SiCss3 className="skillIcon" />
           <p>CSS</p>
         </div>
       </div>
