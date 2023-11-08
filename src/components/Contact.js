@@ -13,7 +13,7 @@ const Contact = () => {
   }, []);
   return (
     <div className="contactOuterContainer">
-      <h1 className="contactTitle">Contact Form</h1>
+      <h1 className="contactTitle">Contact</h1>
       <div className="contactContainer">
         <form name="contact" method="post">
           <input
