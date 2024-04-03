@@ -42,11 +42,11 @@ export const data = [
     source: 'https://github.com/demirsergen/note-taking-app',
   },
 
-  {
-    name: 'Weather App',
-    tags: ['JS', 'CSS'],
-    img: image3,
-    visit: 'https://weather2022app.netlify.app',
-    source: 'https://github.com/demirsergen/weather-app2',
-  },
+  // {
+  //   name: 'Weather App',
+  //   tags: ['JS', 'CSS'],
+  //   img: image3,
+  //   visit: 'https://weather2022app.netlify.app',
+  //   source: 'https://github.com/demirsergen/weather-app2',
+  // },
 ];
