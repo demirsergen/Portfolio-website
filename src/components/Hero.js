@@ -15,8 +15,8 @@ const Hero = () => {
             <br />
           </h2>
           <p>
-            I am a Frontend Web Developer and I use modern
-            technologies to create cool things for the web.
+            I am a Software Developer and I use modern technologies to
+            create cool things for the web.
           </p>
           <div className="heroButtonsContainer">
             <button className="viewProjectsButton">

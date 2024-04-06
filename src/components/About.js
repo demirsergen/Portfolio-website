@@ -1,7 +1,6 @@
 import profilePic from '../static/images/profile_picture2.JPG';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Resume from '../components/Resume';
 
 const About = () => {
   useEffect(() => {
@@ -28,9 +27,8 @@ const About = () => {
           <Link to="/contact" className="about-link">
             Let's have a chat!
           </Link>
-          <Resume />
           <div className="aboutResources">
-            <h4>Main Resources I've Used:</h4>
+            <h4>Helpful Resources:</h4>
             <ul>
               <li>
                 <a

@@ -457,7 +457,7 @@ header {
   color: black;
   text-decoration: none;
   border: 1px solid black;
-  padding: 10px 15px;
+  padding: 5px 10px;
   border-radius: 10px;
   background: rgb(245, 170, 32);
 }
@@ -1120,7 +1120,7 @@ textarea {
 }
 
 .resume {
-  display: block;
+  /* display: block; */
   margin: .5em 0;
 }
 

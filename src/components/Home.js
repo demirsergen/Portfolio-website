@@ -1,9 +1,9 @@
-import { useEffect } from "react";
-import Hero from "./Hero";
-import Services from "./Services";
-import Skills from "./Skills";
-import CallToAction from "./CallToAction";
-import PopularProjects from "./PopularProjects";
+import { useEffect } from 'react';
+import Hero from './Hero';
+import Services from './Services';
+import Skills from './Skills';
+import CallToAction from './CallToAction';
+import PopularProjects from './PopularProjects';
 
 const Home = () => {
   useEffect(() => {
@@ -13,7 +13,7 @@ const Home = () => {
     <div className="homeOuterContainer">
       <Hero />
       <Skills />
-      <PopularProjects />
+      {/* <PopularProjects /> */}
       <Services />
       <CallToAction />
     </div>
