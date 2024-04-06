@@ -13,30 +13,16 @@ const About = () => {
         <div className="aboutContentContainer">
           <h1 className="aboutTitle">About Me</h1>
           <p>
-            Hello, this is Sergen and I'm a self-taught web developer.
-            I currently live in Chicago, IL. I've been learning how to
-            code for over 2 years now. I started with{' '}
-            <strong>
-              Responsive Web Design on FreeCodecamp and then moved on
-              to JavaScript Algorithms and Data Structures.
-            </strong>{' '}
-            I love working with <strong>React</strong> and I do put in
-            the effort to master it. But I also like learning new
-            technologies, languages and concepts to improve my
-            understanding of this field.
-          </p>
-          <br />
-          <p>A little bit of background about my education:</p>
-          <p>
-            I got myself<strong> a degree in Psychology</strong> and
-            then I went on and moved to the UK to get my
-            <strong>
-              {' '}
-              Master's degree in Work Psychology and Business
-            </strong>{' '}
-            so I could work in HR for tech companies. But little did I
-            know that it wasn't going to be enough for me, personally,{' '}
-            <strong>I had to learn how to code.</strong>
+            I'm Sergen, a dedicated explorer on a journey to find
+            purpose while immersing myself in the dynamic world of
+            technology. With a background in psychology and a flair
+            for frontend development, I find joy in both my work as a
+            health educator and my contributions to nonprofit
+            projects. Passionate about leveraging technology for
+            positive change, I'm constantly seeking new opportunities
+            to learn and grow. Outside of work, you'll often find me
+            strumming my guitar, capturing moments through my lens, or
+            delving into the intricacies of European football.
           </p>
           <br />
           <Link to="/contact" className="about-link">
