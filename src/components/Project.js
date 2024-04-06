@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Project = ({ project }) => {
   return (
@@ -7,12 +7,12 @@ const Project = ({ project }) => {
       <div className="projectsInfo">
         <div>
           <h4>
-            Project: <span>{project.name}</span>
+            Name: <span>{project.name}</span>
           </h4>
         </div>
         <div className="tags-container">
           <h4 className="projectsTags">
-            Tags:
+            Tech Stack:
             {project.tags.map((tag, index) => (
               <span className="tag" key={index}>
                 {tag}
@@ -35,7 +35,7 @@ const Project = ({ project }) => {
             rel="noreferrer"
             className="link"
           >
-            Source Code
+            Github
           </a>
         </div>
       </div>
