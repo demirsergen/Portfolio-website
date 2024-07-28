@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
-import { GrCompass } from "react-icons/gr";
-import "../styles.css";
-import Resume from "./Resume";
+import { Link } from 'react-router-dom';
+import { GrCompass } from 'react-icons/gr';
+import '../styles.css';
+// import Resume from "./Resume";
 
 const Header = () => {
   const scrollUp = () => {
@@ -13,8 +13,7 @@ const Header = () => {
       <div className="headerContainer">
         <div className="brand" onClick={scrollUp}>
           <Link to="/">
-            <GrCompass size="30px" />
-            <h2>Sergen Demir</h2>
+            <GrCompass size="45px" />
           </Link>
         </div>
         <ul className="navLinks">
@@ -36,7 +35,7 @@ const Header = () => {
           <Link to="contact" onClick={scrollUp}>
             Contact
           </Link>
-          <Resume />
+          {/* <Resume /> */}
         </ul>
       </div>
     </header>
